@@ -1,0 +1,289 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="fr.greta.expensemanager.AjouterNoteDeFrais">
+        <TextView
+            android:id="@+id/titleAjoutNoteDeFrais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ajout NoteDeFrais"
+            android:textSize="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/nomIntituleNDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Intitulé note de frais :"
+            android:textSize="25dp"
+            android:layout_below="@+id/titleAjoutNoteDeFrais"
+            android:layout_alignParentStart="true" />
+
+
+
+        <EditText
+            android:id="@+id/ajoutIntituleNDF"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/nomIntituleNDF"
+
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomMotifNDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Motif note de frais :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutIntituleNDF"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutMotifNDF"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomMotifNDF"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomMontantPrevu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Montant Prevu :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutMotifNDF"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutMontantPrevu"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomMontantPrevu"
+            android:inputType="textNoSuggestions"/>
+
+
+        <TextView
+            android:id="@+id/nomDateNDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date note de frais :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutMontantPrevu"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutDateNDF"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomDateNDF"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomEtatNDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Etat note de frais :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutDateNDF"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutEtatNDF"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomEtatNDF"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomCommentaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Commentaire :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutEtatNDF"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutCommentaire"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomCommentaire"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomNbreNuiteesSiHotellerie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NbreNuiteesSiHotellerie : "
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutCommentaire"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutNbreNuiteesSiHotellerie"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomNbreNuiteesSiHotellerie"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomNbreRepasSiRestauration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NbreRepasSiRestauration :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutNbreNuiteesSiHotellerie"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutNbreRepasSiRestauration"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomNbreRepasSiRestauration"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomCoordonneesGPSDepartSiTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CoordonneesGPSDepartSiTransport :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutNbreRepasSiRestauration"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutCoordonneesGPSDepartSiTransport"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomCoordonneesGPSDepartSiTransport"
+            android:inputType="textNoSuggestions"/>
+
+
+        <TextView
+            android:id="@+id/nomCoordonneesGPSArriveeSiTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CoordonneesGPSArriveeSiTransport :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutCoordonneesGPSDepartSiTransport"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutCoordonneesGPSArriveeSiTransport"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomCoordonneesGPSArriveeSiTransport"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomTypeDeTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Type De Transport :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutCoordonneesGPSArriveeSiTransport"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutTypeDeTransport"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomTypeDeTransport"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomDistanceSiTransport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="DistanceSiTransport :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutTypeDeTransport"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutDistanceSiTransport"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomDistanceSiTransport"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+        android:id="@+id/nomLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Login :"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutDistanceSiTransport"
+        android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutLogin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomLogin"
+            android:inputType="textNoSuggestions"/>
+
+        <TextView
+            android:id="@+id/nomIdClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IdClient :"
+            android:textSize="25dp"
+            android:layout_below="@+id/ajoutLogin"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ajoutIdClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:layout_below="@+id/nomIdClient"
+            android:inputType="textNoSuggestions"/>
+
+
+        <Button
+            android:id="@+id/ajouterNDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ajoutIdClient"
+            android:layout_centerHorizontal="true"
+            android:text="Valider" />
+</RelativeLayout>
+</ScrollView>

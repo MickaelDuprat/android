@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.greta.expensemanager.NoteDeFraisDetails">
+
+
+
+    <Button
+        android:id="@+id/Mofifier"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Modifier" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Intitulé Note De Frais :"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/IntituleNDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NoteDefFrais"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Motif de NDF :"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:id="@+id/MotifNDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Motif "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Montant Prevu:"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/MontantPrevu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montant Prevu:"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Date NDF :"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/DateNDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DateNDF"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="EtatNDF :"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/EtatNDF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EtatNDF"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:text="Commentaire :"
+    android:layout_marginTop="15dp"
+    />
+
+    <TextView
+        android:id="@+id/Commentaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Commentaire"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="NbreNuiteesSiHotellerie :"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/NbreNuiteesSiHotellerie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NbreNuiteesSiHotellerie"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="NbreNuiteesSiHotellerie :"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/NbreRepasSiRestauration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NbreNuiteesSiHotellerie"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

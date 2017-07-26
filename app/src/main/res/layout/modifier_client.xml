@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="fr.greta.expensemanager.ModifierClient">
+
+
+
+        <!-- Here you put the rest of your current view-->
+
+        <TextView
+            android:id="@+id/titleModifierClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Modifier Client"
+            android:textSize="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+
+        <TextView
+            android:id="@+id/ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Id Client:"
+            android:textSize="25dp"
+            android:layout_below="@+id/titleModifierClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/IdClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Id Client:"
+            android:layout_below="@+id/ID"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nom:"
+            android:textSize="25dp"
+            android:layout_below="@+id/IdClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierNom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Nom:"
+            android:layout_below="@+id/nom"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prenom:"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierNom"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierPrenom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Prenom:"
+            android:layout_below="@+id/prenom"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/adresse1Client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adresse 1 Client:"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierPrenom"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierAdresse1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="adresse1Client:"
+            android:layout_below="@+id/adresse1Client"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/adresse2Client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adresse 2 Client:"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierAdresse1"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierAdresse2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="adresse2Client:"
+            android:layout_below="@+id/adresse2Client"
+            android:inputType="text"/>
+
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mail"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierAdresse2"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierMail"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Mail:"
+            android:layout_below="@+id/mail"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/CodePostalClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CodePostalClient"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierMail"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierCodePostalClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="CodePostalClient"
+            android:layout_below="@+id/CodePostalClient"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/VilleClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ville Client"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierCodePostalClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierVilleClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Ville Client"
+            android:layout_below="@+id/VilleClient"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/TelephoneBureauClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telephone Bureau Client "
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierVilleClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierTelephoneBureauClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Telephone Bureau Client"
+            android:layout_below="@+id/TelephoneBureauClient"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/TelephoneMobileClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TelephoneMobileClient"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierTelephoneBureauClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierTelephoneMobileClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="TelephoneMobileClient"
+            android:layout_below="@+id/TelephoneMobileClient"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/BudgetMaxRemboursementClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Budget Remboursement Client"
+            android:textSize="25dp"
+            android:layout_below="@+id/ModifierTelephoneMobileClient"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ModifierBudgetMaxRemboursementClient"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Budget Remboursement Client"
+            android:layout_below="@+id/BudgetMaxRemboursementClient"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/modifier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ModifierBudgetMaxRemboursementClient"
+            android:layout_centerHorizontal="true"
+            android:text="Valider" />
+
+
+    </RelativeLayout>
+</ScrollView>

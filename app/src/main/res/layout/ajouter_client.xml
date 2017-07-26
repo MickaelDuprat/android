@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.greta.expensemanager.AjouterClient">
+
+
+
+        <!-- Here you put the rest of your current view-->
+
+    <TextView
+        android:id="@+id/titleAjoutClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ajout Client"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nom:"
+        android:textSize="25dp"
+        android:layout_below="@+id/titleAjoutClient"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutNom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nom"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Prenom:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutNom"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutPrenom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/prenom"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/adresse1Client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Adresse 1 Client:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutPrenom"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutAdresse1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/adresse1Client"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/adresse2Client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Adresse 2 Client:"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutAdresse1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutAdresse2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/adresse2Client"
+        android:inputType="text"/>
+
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Mail"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutAdresse2"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutMail"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/mail"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/CodePostalClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CodePostalClient"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutMail"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutCodePostalClient"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/CodePostalClient"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/VilleClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Ville Client"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutCodePostalClient"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutVilleClient"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/VilleClient"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/TelephoneBureauClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Telephone Bureau Client "
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutVilleClient"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutTelephoneBureauClient"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/TelephoneBureauClient"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/TelephoneMobileClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TelephoneMobileClient"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutTelephoneBureauClient"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutTelephoneMobileClient"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/TelephoneMobileClient"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/BudgetMaxRemboursementClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Budget Remboursement Client"
+        android:textSize="25dp"
+        android:layout_below="@+id/ajoutTelephoneMobileClient"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/ajoutBudgetMaxRemboursementClient"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:layout_below="@+id/BudgetMaxRemboursementClient"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/ajouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ajoutBudgetMaxRemboursementClient"
+        android:layout_centerHorizontal="true"
+        android:text="Valider" />
+
+
+</RelativeLayout>
+</ScrollView>

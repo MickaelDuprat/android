@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/consulterClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulter les clients"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="135dp" />
+
+    <Button
+        android:id="@+id/ajouterClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/consulterClient"
+        android:layout_marginTop="33dp"
+        android:text="Ajout de client"
+        android:layout_alignStart="@+id/consulterClient"
+        android:layout_alignEnd="@+id/consulterClient" />
+
+    <Button
+        android:id="@+id/ConsulterNDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Consulter les Notes De Frais"
+        android:layout_below="@+id/ajouterClient"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="54dp" />
+
+    <Button
+        android:id="@+id/ajouterNDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AJOUT NOTE DE FRAIS"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/ConsulterNDF"
+        android:layout_alignStart="@+id/ajouterClient" />
+
+
+</RelativeLayout>
